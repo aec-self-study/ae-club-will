@@ -33,5 +33,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   name: customers
-  config:
       materialized: view
